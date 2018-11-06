@@ -43,7 +43,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>$(SolutionDir)$(Configuration)\;$(LibraryPath)</LibraryPath>
-    <IncludePath>../../../thirdparty/gtest-1.7.0/source2/include;../../../thirdparty/gtest-1.7.0/source;../../src/include;../../../gtest-1.7.0/source2/include;$(IncludePath)</IncludePath>
+    <IncludePath>../../../thirdparty/gtest/1.7.0/source2/include;../../../thirdparty/gtest/1.7.0/source;../../src/include;../../../gtest/1.7.0/source2/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
